@@ -1,0 +1,5 @@
+J(0, 1, 0)              if x == 0 then return 0
+J(1, 2, 0)              if x == y then goto end
+    S(0)                    z += 1
+    S(2)                    loop: y += 1
+    J(0, 0, 2)              goto 2
