@@ -16,12 +16,15 @@
     ```
 2. task 2:
     - [superposition](./superposition.py)  
+    
     To run: `python3 superposition.py n g f1 f2 f3...`
     Example: `python3 superposition.py 2 ./programs/sum.urm ./programs/sum.urm ./programs/sum.urm > ./superposition/sup.urm`
     - [primitive recursion](./recursion.py)  
+    
     To run: `python3 recursion.py n f g`
     Example: `python3 recursion.py 1 ./recursion/f.urm ./recursion/g.urm > ./recursion/rec.urm`
     - [minimization](./minimization.py)  
+    
     To run: `python3 minimization.py n f`  
     Example: `python3 minimization.py 1 ./minimization/f.urm > ./minimization/min.urm`
     where `n` is number of function arguments, `f`, `g`, `f1`, ..., `fn` paths to function files.
